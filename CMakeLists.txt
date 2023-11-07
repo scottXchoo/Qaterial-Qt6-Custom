@@ -213,11 +213,11 @@ target_link_libraries(${QATERIAL_TARGET} PRIVATE
   Qt::QuickControls2
 )
 
-set_target_properties(${QATERIAL_TARGET} PROPERTIES
-  AUTOMOC TRUE
-)
+#set_target_properties(${QATERIAL_TARGET} PROPERTIES
+#  AUTOMOC TRUE
+#)
 if(QATERIAL_ENABLE_UNITY_BUILD)
-  set_target_properties(${QATERIAL_TARGET} PROPERTIES UNITY_BUILD ON)
+  set_target_properties(${QATERIAL_TARGET} PROPERTIES UNITY_BUILD OFF)
 endif()
 
 # Version
