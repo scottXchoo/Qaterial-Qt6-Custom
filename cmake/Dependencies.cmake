@@ -1,6 +1,6 @@
 # Qaterial dependencies
 
-## CMake scripts
+## CMake scripts 
 
 set(QTGENERATORCMAKE_REPOSITORY "https://github.com/OlivierLDff/QtGeneratorCMake.git" CACHE STRING "QtGeneratorCMake repository, can be a local URL")
 set(QTGENERATORCMAKE_TAG "162d7e748ea588be4eb1403e5224471a589ae266" CACHE STRING "QtGeneratorCMake git tag")

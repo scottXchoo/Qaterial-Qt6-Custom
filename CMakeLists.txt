@@ -102,7 +102,7 @@ find_package(Qt6 REQUIRED COMPONENTS
 # ───── FETCH DEPENDENCIES ─────
 
 include(cmake/Dependencies.cmake)
-include(cmake/FetchQOlm.cmake)
+#include(cmake/FetchQOlm.cmake)
 include(cmake/FetchQtGeneratorCMake.cmake)
 
 # ───── RESSOURCES ─────
@@ -153,13 +153,13 @@ set(QATERIAL_SRCS
   ${QATERIAL_SOURCE_DIR}/IO/TextFile.cpp
   ${QATERIAL_SOURCE_DIR}/IO/Clipboard.hpp
   ${QATERIAL_SOURCE_DIR}/IO/Clipboard.cpp
-  ${QATERIAL_SOURCE_DIR}/IO/FolderTreeModel.hpp
-  ${QATERIAL_SOURCE_DIR}/IO/FolderTreeModel.cpp
+#  ${QATERIAL_SOURCE_DIR}/IO/FolderTreeModel.hpp
+#  ${QATERIAL_SOURCE_DIR}/IO/FolderTreeModel.cpp
 
   ${QATERIAL_SOURCE_DIR}/Navigation/StepperElement.hpp
   ${QATERIAL_SOURCE_DIR}/Navigation/StepperElement.cpp
-  ${QATERIAL_SOURCE_DIR}/Navigation/TreeElement.hpp
-  ${QATERIAL_SOURCE_DIR}/Navigation/TreeElement.cpp
+#  ${QATERIAL_SOURCE_DIR}/Navigation/TreeElement.hpp
+#  ${QATERIAL_SOURCE_DIR}/Navigation/TreeElement.cpp
 
   ${QATERIAL_SOURCE_DIR}/Details/Property.hpp
   ${QATERIAL_SOURCE_DIR}/Details/Version.hpp
@@ -204,7 +204,6 @@ target_link_libraries(${QATERIAL_TARGET} PRIVATE
   ${QATERIAL_TARGET}::Icons
   ${QATERIAL_TARGET}::Fonts
   ${QATERIAL_TARGET}::Components
-  QOlm::QOlm
   Qt::Core
   Qt::Gui
   Qt::Svg
