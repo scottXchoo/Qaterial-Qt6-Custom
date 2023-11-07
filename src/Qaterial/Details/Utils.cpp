@@ -68,19 +68,19 @@ static void Qaterial_registerTypes()
     qaterial::IconLabelPositioner::registerToQml(*_uri, _major, _minor);
     qaterial::IconLabelImpl::registerToQml(*_uri, _major, _minor);
 
-//    // NAVIGATION
+    //    // NAVIGATION
 
-//    qaterial::StepperElement::registerToQml(*_uri, _major, _minor);
-//    qmlRegisterType<qolm::QOlm<qaterial::StepperElement>>(*_uri, _major, _minor, "StepperModel");
+    //    qaterial::StepperElement::registerToQml(*_uri, _major, _minor);
+    //    qmlRegisterType<qolm::QOlm<qaterial::StepperElement>>(*_uri, _major, _minor, "StepperModel");
 
-//    qaterial::TreeElement::registerToQml(*_uri, _major, _minor);
-//    qmlRegisterType<qaterial::TreeModel>(*_uri, _major, _minor, "TreeModel");
+    //    qaterial::TreeElement::registerToQml(*_uri, _major, _minor);
+    //    qmlRegisterType<qaterial::TreeModel>(*_uri, _major, _minor, "TreeModel");
 
-//    // IO
+    //    // IO
 
-//    qaterial::TextFile::registerToQml(*_uri, _major, _minor);
-//    qaterial::Clipboard::registerSingleton(*_uri, _major, _minor);
-//    qaterial::FolderTreeModel::registerToQml(*_uri, _major, _minor);
+    //    qaterial::TextFile::registerToQml(*_uri, _major, _minor);
+    //    qaterial::Clipboard::registerSingleton(*_uri, _major, _minor);
+    //    qaterial::FolderTreeModel::registerToQml(*_uri, _major, _minor);
 
     qmlRegisterType<QGfxSourceProxy>("GraphicalEffects", 1, 0, "SourceProxy");
     qmlRegisterModule("GraphicalEffects", 1, 0);
