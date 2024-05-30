@@ -21,9 +21,10 @@
 // SOFTWARE.
 
 import QtQuick as QQ
+import QtQuick.Controls
 import Qaterial.GraphicalEffects as QGE
 
-QQ.Item
+Pane
 {
   id: root
 
