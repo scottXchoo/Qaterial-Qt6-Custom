@@ -86,7 +86,7 @@ Qaterial.Theme
 
   property color primaryColorLight: "white"
   property color primaryColorDark: "#202225" //"#212121"
-  property color accentColorLight: "#FFC107"
+  property color accentColorLight: "#2B3EFC"
   property color accentColorDark: "#FFB835"
   property color backgroundColorLight: "#FFFFFF"
   property color backgroundColorDark: "#2F3136" //"#303030"
